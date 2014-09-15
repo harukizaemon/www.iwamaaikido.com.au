@@ -22,7 +22,7 @@ section .container {
 }
 
 section p {
-  font-size: 125%;
+/*   font-size: 125%; */
 }
 
 .section-reverse {
