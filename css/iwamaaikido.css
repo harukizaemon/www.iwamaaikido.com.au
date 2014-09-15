@@ -21,10 +21,6 @@ section .container {
   vertical-align: middle;
 }
 
-section p {
-/*   font-size: 125%; */
-}
-
 .section-reverse {
   background-color: #ffffff;
 }
@@ -38,7 +34,7 @@ section p {
   color: #000000;
 }
 
-.section-reverse p {
+.section-reverse p, .section-reverse address {
   color: #777777;
 }
 
@@ -48,4 +44,10 @@ section p {
 
 .section-reverse blockquote footer {
   color: #aaaaaa;
+}
+
+#copyright {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
