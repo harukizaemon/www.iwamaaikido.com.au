@@ -12,3 +12,17 @@ section {
   min-height: 100%;
   height: auto;
 }
+
+#beginners {
+  background-color: #cccccc;
+}
+
+#locations {
+  background-color: #2a9fd6;
+  color: #ffffff;
+}
+
+#instructors {
+  background-color: #cc0000;
+  color: #ffffff;
+}
