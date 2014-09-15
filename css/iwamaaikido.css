@@ -8,9 +8,17 @@ body {
 }
 
 section {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   min-height: 100%;
   height: auto;
+  display: table;
+  width: 100%;
+}
+
+section .container {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #beginners {
