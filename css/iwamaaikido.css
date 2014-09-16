@@ -12,14 +12,34 @@ section {
   padding-bottom: 40px;
   min-height: 100%;
   height: auto;
-  display: table;
   width: 100%;
 }
 
+/*
 section .container {
   display: table-cell;
   vertical-align: middle;
 }
+ */
+
+/*
+.row.text-middle {
+/*
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+ */
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+
+.row.text-middle > [class^="col-"],
+.row.text-middle > [class*=" col-"] {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+ */
 
 .section-reverse {
   background-color: #ffffff;
@@ -34,7 +54,8 @@ section .container {
   color: #000000;
 }
 
-.section-reverse p, .section-reverse address {
+.section-reverse p,
+.section-reverse address {
   color: #777777;
 }
 
