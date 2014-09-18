@@ -15,31 +15,15 @@ section {
   width: 100%;
 }
 
-/*
-section .container {
+.vertical-middle {
+  display: table;
+}
+
+.vertical-middle .container {
   display: table-cell;
   vertical-align: middle;
-}
- */
-
-/*
-.row.text-middle {
-/*
-  display: inline-block;
-  vertical-align: middle;
   float: none;
- */
-  display: -webkit-flex;
-  -webkit-align-items: center;
 }
-
-.row.text-middle > [class^="col-"],
-.row.text-middle > [class*=" col-"] {
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
-}
- */
 
 .section-reverse {
   background-color: #ffffff;
