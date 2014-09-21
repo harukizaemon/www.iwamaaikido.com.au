@@ -57,4 +57,5 @@ footer {
 
 .sneaky-peek {
   margin-top: -2em;
+  cursor: pointer;
 }
