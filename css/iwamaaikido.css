@@ -47,7 +47,10 @@ body {
   float: none;
 }
 
-#copyright {
-  padding-top: 20px;
-  padding-bottom: 10px;
+header {
+  margin-bottom: 2em;
+}
+
+footer {
+  margin-top: 2em;
 }
