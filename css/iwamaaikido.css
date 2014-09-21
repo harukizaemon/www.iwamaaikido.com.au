@@ -16,10 +16,6 @@ body {
 body {
 }
 
-.navbar {
-  text-transform: uppercase;
-}
-
 .navbar-inverse {
   border-bottom: none;
 }
