@@ -16,6 +16,14 @@ body {
 body {
 }
 
+header {
+  margin-bottom: 2em;
+}
+
+footer {
+  margin-top: 2em;
+}
+
 .navbar-inverse {
   border-bottom: none;
 }
@@ -47,10 +55,6 @@ body {
   float: none;
 }
 
-header {
-  margin-bottom: 2em;
-}
-
-footer {
-  margin-top: 2em;
+.sneaky-peek {
+  margin-top: -2em;
 }
