@@ -38,6 +38,14 @@ footer {
   background-color: #ef4923;
 }
 
+.glyphicon:before {
+  vertical-align: middle;
+}
+
+.glyphicon {
+/*   padding-right: 0.5em; */
+}
+
 .container-full-height {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -55,7 +63,9 @@ footer {
   float: none;
 }
 
+/*
 .sneaky-peek {
   margin-top: -2em;
   cursor: pointer;
 }
+ */
