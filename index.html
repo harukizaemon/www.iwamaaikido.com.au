@@ -24,32 +24,30 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="40">
-  <header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Aiki Shuren Dojo Melbourne</a>
-        </div>
-
-        <div class="collapse navbar-collapse navbar-right" id="navbar-main-collapse">
-          <ul class="nav navbar-nav text-uppercase">
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#aikido">Aikido</a></li>
-            <li><a href="#instructor">Instructor</a></li>
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#beginners">Beginners</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Aiki Shuren Dojo Melbourne</a>
       </div>
-    </nav>
-  </header>
+
+      <div class="collapse navbar-collapse navbar-right" id="navbar-main-collapse">
+        <ul class="nav navbar-nav text-uppercase">
+          <li><a href="#welcome" class="scroll">Welcome</a></li>
+          <li><a href="#aikido" class="scroll">Aikido</a></li>
+          <li><a href="#instructor" class="scroll">Instructor</a></li>
+          <li><a href="#classes" class="scroll">Classes</a></li>
+          <li><a href="#beginners" class="scroll">Beginners</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <section id="welcome" class="container container-full-height container-align-middle">
     <div class="row">
@@ -73,9 +71,7 @@
       </div>
 
       <footer class="col-sm-12 text-center">
-        <nav>
-          <a href="#aikido" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-chevron-down"></span>&nbsp;Aikido</a>
-        </nav>
+        <a href="#aikido" class="scroll">learn more</a>
       </footer>
     </div>
   </section>
@@ -100,18 +96,24 @@
         <p>A modern Japanese martial art developed by Morihei Ueshiba incorporating joint-lock and throwing techniques applied in self-defense with the intent of not injuring or causing only minimal damage to the attacker.</p>
         <footer>Stanley Pranin, <cite title="The Encyclopaedia of Aikido">The Encyclopaedia of Aikido</cite></footer>
       </blockquote>
+
+      <footer class="col-sm-12 text-center">
+        <a href="#kote-gaeshi" class="scroll">learn more</a>
+      </footer>
     </div>
   </section>
 
-  <section class="container container-full-height container-align-middle">
+  <section id="kote-gaeshi" class="container container-full-height container-align-middle">
     <div class="row">
       <img class="col-sm-12" src="images/simon_harris_kote_gaeshi.jpg" class="img-responsive" alt="Simon Harris performing Kote Gaeshi">
+<!--
 
       <footer class="col-sm-12 text-center">
         <nav>
           <a href="#instructor" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-chevron-down"></span>&nbsp;Instructor</a>
         </nav>
       </footer>
+ -->
     </div>
   </section>
 
@@ -135,9 +137,7 @@
       </div>
 
       <footer class="col-sm-12 text-center">
-        <nav>
-          <a href="#classes" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-chevron-down"></span>&nbsp;Classes</a>
-        </nav>
+        <a href="#classes" class="scroll">learn more</a>
       </footer>
     </div>
   </section>
@@ -153,9 +153,7 @@
       </div>
 
       <footer class="col-sm-12 text-center">
-        <nav>
-          <a href="#beginners" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-chevron-down"></span>&nbsp;Beginners</a>
-        </nav>
+        <a href="#beginners" class="scroll">learn more</a>
       </footer>
     </div>
   </section>
@@ -171,9 +169,7 @@
       </div>
 
       <footer class="col-sm-12 text-center">
-        <nav>
-          <a href="#contact" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-chevron-down"></span>&nbsp;Contact</a>
-        </nav>
+        <a href="#contact" class="scroll">learn more</a>
       </footer>
     </div>
   </section>

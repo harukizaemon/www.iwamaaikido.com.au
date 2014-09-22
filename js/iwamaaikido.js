@@ -1,6 +1,6 @@
 // Ease the scrolling from nav
 $(function() {
-  $(".nav.navbar-nav a, footer nav a.btn").bind("click", function(event) {
+  $("a.scroll").bind("click", function(event) {
     var $anchor = $(this).attr("href");
     $("html, body").stop().animate({
       scrollTop: $($anchor).offset().top
