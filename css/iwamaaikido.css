@@ -16,7 +16,12 @@ header {
 
 .navbar-inverse .navbar-brand {
   color: #ffffff;
-/*   font-weight: bold; */
+}
+
+@media (max-width: 479px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 16px;
+  }
 }
 
 .navbar-inverse {
