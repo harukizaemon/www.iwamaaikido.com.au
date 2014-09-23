@@ -28,24 +28,28 @@ header {
   background-color: #ef4923;
 }
 
-.container-full-height {
+.section-full-height {
   padding-top: 50px;
   min-height: 100%;
   height: auto;
 }
 
-.container-align-middle {
+.section-align-middle {
   display: table;
 }
 
-.container-align-middle > .row {
+.section-align-middle > .row {
   display: table-cell;
   vertical-align: middle;
   float: none;
 }
 
-.page-footer {
+.section-footer {
   padding-top: 50px;
+}
+
+.page-footer {
+  padding-bottom: 50px;
 }
 
 a.scroll svg line,
