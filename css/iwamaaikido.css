@@ -14,6 +14,11 @@ header {
   margin-bottom: 2em;
 }
 
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+/*   font-weight: bold; */
+}
+
 .navbar-inverse {
   border-bottom: none;
 }
@@ -32,6 +37,12 @@ header {
   padding-top: 50px;
   min-height: 100%;
   height: auto;
+}
+
+@media (max-width: 767px) {
+  .section-full-height {
+    min-height: 0;
+  }
 }
 
 .section-align-middle {
