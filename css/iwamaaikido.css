@@ -58,6 +58,10 @@ a.scroll svg circle {
   fill: none;
 }
 
+.img-responsive {
+  display: inline-block;
+}
+
 /*
 section { border: 1px solid red; }
 footer { border: 1px solid green; }
