@@ -38,6 +38,16 @@ header {
   background-color: #ef4923;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .section-full-height {
   padding-top: 50px;
   min-height: 100%;
@@ -82,4 +92,4 @@ a.scroll svg circle {
 section { border: 1px solid red; }
 footer { border: 1px solid green; }
 .row { border: 1px solid blue; }
- */
+*/
