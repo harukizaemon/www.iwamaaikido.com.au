@@ -43,7 +43,7 @@ header {
   padding-right: 0;
 }
 
-.container-fluid [class*="col-"] {
+.container-fluid > .row > [class*="col-"] {
   padding-left: 0;
   padding-right: 0;
 }
@@ -70,6 +70,10 @@ header {
   float: none;
 }
 
+.section-align-middle.container-fluid > .row {
+  width: 100%;
+}
+
 .section-footer {
   padding-top: 50px;
 }
@@ -82,10 +86,6 @@ a.scroll svg circle {
 
 a.scroll svg circle {
   fill: none;
-}
-
-.img-responsive {
-  display: inline-block;
 }
 
 /*
