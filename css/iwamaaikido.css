@@ -64,10 +64,6 @@ header {
   padding-top: 50px;
 }
 
-.page-footer {
-  padding-bottom: 50px;
-}
-
 a.scroll svg line,
 a.scroll svg circle {
   stroke: #666666;
