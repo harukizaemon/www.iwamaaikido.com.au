@@ -38,11 +38,6 @@ header {
   background-color: #ef4923;
 }
 
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .container-fluid > .row > [class*="col-"] {
   padding-left: 0;
   padding-right: 0;
