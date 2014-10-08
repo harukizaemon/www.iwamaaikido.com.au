@@ -59,6 +59,13 @@ section {
   padding-top: 50px;
 }
 
+@media (max-width: 767px) {
+  .blockquote-reverse {
+    margin-right: 15px;
+  }
+}
+
+
 /*
 section { border: 1px solid red; }
 footer { border: 1px solid green; }
