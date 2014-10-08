@@ -3,7 +3,7 @@ $(function() {
   $("a.scroll").bind("click", function(event) {
     var $anchor = $(this).attr("href");
     $("html, body").stop().animate({
-      scrollTop: $($anchor).offset().top
+      scrollTop: $($anchor).offset().top - 100
     }, 500, "easeInOutExpo");
     event.preventDefault();
   });
