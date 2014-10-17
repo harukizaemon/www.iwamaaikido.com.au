@@ -8,6 +8,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  padding-top: 30px;
 }
 
 header {
