@@ -53,15 +53,19 @@ header {
 }
 
 section {
-  padding-top: 50px;
+  padding-top: 3em;
 }
 
 .section-footer {
-  padding-top: 50px;
+  padding-top: 3em;
 }
 
 .diary-entry-day {
-  margin-bottom: 15px;
+  margin-bottom: 1em;
+}
+
+.diary-entry-header {
+  margin-bottom: 1em;
 }
 
 .diary-entry-header h4 {
