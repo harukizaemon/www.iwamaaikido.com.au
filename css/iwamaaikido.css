@@ -61,14 +61,14 @@ section {
 }
 
 .diary-entry-header {
-/*   text-align: right; */
+  padding-right: 0;
 }
 
 .diary-entry-header h4 {
   margin-top: 0;
   margin-bottom: 0;
   color: #999999;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
 }
 
