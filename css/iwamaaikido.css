@@ -66,6 +66,7 @@ section {
 
 .diary-entry-header {
   margin-bottom: 1em;
+  text-align: right;
 }
 
 .diary-entry-header h4 {
